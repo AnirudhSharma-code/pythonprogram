@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+#about {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#skills li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects Section */
+section > div {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#contact {
+    background-color: #4CAF50;
+    color: #231e1e;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #3d14de;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #about h2,
+    #skills h2,
+    #contact h2 {
+        font-size: 1.5rem;
+    }
+
+    #skills li,
+    section li {
+        font-size: 1rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Anirudh Prakash Sharma </h1>
+            <p>College Student | Web Developer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello . I am Anirudh Prakash Sharma. I am a Computer Science Student and have interest in web development.I am interested in making projects which can solve real life problems.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul >
+                <li>HTML & CSS</li>
+                <li>C Programming Language</li>
+
+
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Projects</h2>
+            <ul>
+                <li>Portfolio using html and css</li>
+                <li>Student management System </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email:anipsha63@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/anirudh-prakash-sharma-1b84a0328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/in/Anirudh</a></p>
+        </div>
+    </section>
+</body>
+</html>
